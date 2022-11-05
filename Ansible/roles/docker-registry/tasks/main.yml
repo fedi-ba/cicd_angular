@@ -1,4 +1,3 @@
-Walid Belhadj
 ---
 # tasks file for docker-registry
 - name: Log into DockerHub
