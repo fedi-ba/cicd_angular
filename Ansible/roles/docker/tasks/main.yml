@@ -2,7 +2,7 @@
 # tasks file for docker
 - name: create image docker
   docker_image:
-    name: devops
+    name: fediba/devops
     build:
       path: /var/lib/jenkins/workspace/test_cd
       pull: no
@@ -12,7 +12,7 @@
 - name: run container docker 
   docker_container:
     name: myapp_container
-    image: devops:latest
+    image: fediba/devops:latest
     state: started
     recreate: true
     ports:
