@@ -1,2 +1,10 @@
+Walid Belhadj
 ---
 # tasks file for docker-registry
+- name: Log into DockerHub
+  docker_login:
+    username: fediba
+    password: 13259631FeDi
+    
+- name: Push the Docker image into the repo
+  shell: docker push fediba/devops:tagname
