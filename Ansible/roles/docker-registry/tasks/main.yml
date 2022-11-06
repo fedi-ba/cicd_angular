@@ -6,4 +6,4 @@
     password: 13259631FeDi
     
 - name: Push the Docker image into the repo
-  shell: docker push fediba/devops:tagname
+  shell: docker push fediba/devops:latest
